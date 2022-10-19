@@ -1,0 +1,9 @@
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[user]
+	name = snowmii
+	email = 56622373+snowmii@users.noreply.github.com
+	
+[init]
+	defaultBranch = master
