@@ -5,3 +5,7 @@ Host oop
     RemoteCommand bash
     RequestTTY force
     User s11102
+
+Host github
+    AddKeysToAgent yes
+    IdentityFile ~/.ssh/git_key
