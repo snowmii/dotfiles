@@ -1,0 +1,10 @@
+configuration {
+  display-drun: "";
+  display-window: "";
+  drun-display-format: "{icon} {name}";
+  font: "Cantarell Regular 12";
+  modi: "window,run,drun,filebrowser,windowcd";
+  show-icons: true;
+}
+
+@theme "catppuccin-macchiato"

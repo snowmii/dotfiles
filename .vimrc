@@ -8,16 +8,23 @@ endif
 " Plugins
 call plug#begin()
 
-Plug 'dracula/vim',{'as':'dracula'}
-Plug 'joshdick/onedark.vim'
-Plug 'drewtempelmeyer/palenight.vim'
+"Plug 'EdenEast/nightfox.nvim'
+"Plug 'tomasiser/vim-code-dark'
+Plug 'catppuccin/vim',{'as':'catppuccin'}
+"Plug 'arcticicestudio/nord-vim'
+"Plug 'dracula/vim',{'as':'dracula'}
+"Plug 'joshdick/onedark.vim'
+"Plug 'drewtempelmeyer/palenight.vim'
 
-Plug 'Valloric/YouCompleteMe' "YCM
+"Plug 'tpope/vim-surround'
+"Plug 'Valloric/YouCompleteMe' "YCM
 
 Plug 'tpope/vim-fugitive'
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'tribela/vim-transparent'
+Plug 'junegunn/fzf.vim'
 
 call plug#end()
 
@@ -33,7 +40,12 @@ if !exists('g:airline_symbols')
 endif
 let g:airline_symbols.space = "\ua0"
 
+set shiftwidth=4 smarttab
+set expandtab
+set tabstop=8 softtabstop=0
+set number
 " Colorscheme
 syntax on
+set termguicolors
 set background=dark
-colorscheme dracula
+colorscheme catppuccin_macchiato
