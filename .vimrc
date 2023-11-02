@@ -56,7 +56,7 @@ autocmd VimEnter * NERDTree | if argc() > 0 || exists("s:std_in") | wincmd p | e
 " Open the existing NERDTree on each new tab.
 autocmd BufWinEnter * if &buftype != 'quickfix' && getcmdwintype() == '' | silent NERDTreeMirror | endif
 let NERDTreeShowHidden=1
-:let g:NERDTreeWinSize=60
+:let g:NERDTreeWinSize=45
 
 " Other configs
 set mouse=a

@@ -6,6 +6,6 @@ Host oop
     RequestTTY force
     User s11102
 
-Host github
+Host *
     AddKeysToAgent yes
     IdentityFile ~/.ssh/git_key
