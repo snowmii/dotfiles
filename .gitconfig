@@ -1,3 +1,5 @@
 [user]
 	name = miuki
 	email = 56622373+snowmii@users.noreply.github.com
+[pull]
+	rebase = false
