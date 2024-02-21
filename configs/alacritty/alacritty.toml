@@ -1,0 +1,34 @@
+import = ["$HOME/.config/alacritty/catppuccin/catppuccin-macchiato.toml"]
+
+[env]
+TERM = "alacritty"
+
+[font]
+size = 10.0
+
+[font.bold]
+family = "Jetbrains Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "Jetbrains Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "Jetbrains Mono"
+style = "Italic"
+
+[font.normal]
+family = "Jetbrains Mono"
+style = "Regular"
+
+[shell]
+program = "/usr/bin/fish"
+
+[window]
+decorations = "none"
+opacity = 1.0
+
+[window.padding]
+x = 10
+y = 10

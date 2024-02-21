@@ -1,10 +1,5 @@
 HostKeyAlgorithms +ssh-rsa
 PubkeyAcceptedKeyTypes +ssh-rsa
-Host oop
-    HostName oop.cs.nccu.edu.tw
-    RemoteCommand bash
-    RequestTTY force
-    User s11102
 
 Host *
     AddKeysToAgent yes
